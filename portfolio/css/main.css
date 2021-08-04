@@ -59,9 +59,6 @@ section{ position: relative; padding-top: 300px;}
 .aboutTxt{width: 66.66%;}
 .aboutTxt p{font-size: 20px; color: #121212; margin-bottom: 60px;}
 
-.aboutBox2{margin-top: 100px;  min-height: 300px; width: 60%; line-height: 40px; background: #fff; box-shadow: 5px 9px 24px 0px rgb(0 0 0 / 21%); padding: 40px; box-sizing: border-box; border-radius: 25px; margin-left: auto;}
-.aboutBox2 p{font-size: 25px; color: #121212;}
-
 .photo{position: absolute; right: 20px; top: 200px; background: #fff; box-shadow: 5px 9px 24px 0px rgb(0 0 0 / 21%); width: 197px; height: 256px;}
 .photo img{width: 100%; height: 100%; display: block; padding: 10px; box-sizing: border-box;}
 @media screen and (max-width: 1024px){
@@ -87,6 +84,9 @@ section{ position: relative; padding-top: 300px;}
 .skillList li h3::after{display: block; content: ''; width: 35px; height: 3px; background: #fff; position: absolute; left: 0; bottom: -10px;}
 .skillList li:nth-of-type(3) h3{font-family: Roboto,sans-serif; font-weight: 700;}
 .skillList li p{font-size: 16px; color: #f5f4f4; line-height: 30px;}
+@media screen and (max-width: 1024px){
+    .skillList li{height: 330px;}
+}
 @media screen and (max-width: 768px){
     .skillList li{float: none; display: inline-block; width: 49.6%; height: auto; vertical-align: top; padding: 25px;}
     .skillList li:nth-of-type(2){margin-top: 160px;}
@@ -123,7 +123,8 @@ section{ position: relative; padding-top: 300px;}
 .projectInner{width: 33.33%; height: 100%; box-sizing: border-box; transition: all .4s cubic-bezier(.645,.045,.355,1); border-left: 1px solid rgba(192, 237, 235, 0.25); border-top: 1px solid rgba(192, 237, 235, 0.2); box-sizing: border-box;  background: #679DE6;}
 .projectInner .detailProject{display: block; width: 100%; height: 100%;padding: 25px 15px 25px 20px; box-sizing: border-box;}
 .projectInner .type{opacity: 0; visibility: hidden; margin-top: 10px; display: inline-block; padding: 0 15px; height: 30px; line-height: 30px; border-radius: 5px; text-align: center; font-weight: 600; color: #fff;background-color: #FE8272;}
-.projectInner .enable{opacity: 0; visibility: hidden; margin-top: 10px; display: block; color: rgba(255, 255, 255, 0.8); font-weight: 600;}
+.projectInner .enable{opacity: 0; visibility: hidden; margin-top: 10px; display: inline-block; margin-right: 15px; color: rgba(255, 255, 255, 0.8); font-weight: 600;}
+.projectInner .type2{background-color: #fc1d00;}
 .projectInner .explanation{opacity: 0; visibility: hidden; margin-top: 20px; transition: all .3s cubic-bezier(.645,.045,.355,1);}
 .projectInner .explanation li{padding-left: 30px; margin-bottom: 10px; color: #fff; font-size: 16px; line-height: 20px; background: url(../image/checked.png) no-repeat left top 5px;}
 .proTit{color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 15px; position: relative; padding-left: 15px;  transition: all .3s cubic-bezier(.645,.045,.355,1);}
@@ -152,6 +153,9 @@ section{ position: relative; padding-top: 300px;}
     .projectInner.able{background: #3f4fc5;}
 }
 /* project List Click Event */
+@media screen and (min-width: 1430px){
+    .projectList{height: calc(100vh - 0); }
+}
 @media screen and (min-width: 1024px){
     .projectList{height: calc(100vh - 100px); }
 }
