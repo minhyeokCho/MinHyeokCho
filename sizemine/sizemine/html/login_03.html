@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<script type="text/javascript" src="../assets/js/common.js"></script>
+	<link rel="stylesheet" href="../assets/css/common.css">
+	<title>회원가입</title>
+</head>
+<body>
+	<div class="page">
+		<div class="pop_wrap login_fixed"><!-- 로그인 class="login_fixed" 추가 -->
+			<!-- 헤더영역 -->
+			<header class="head_wrap">
+				<!-- 뒤로가기 -->
+				<a href="login_01.html" class="go_back">
+					<span class="blind">뒤로가기</span>
+				</a>
+				<!--// 뒤로가기 -->
+
+				<h1 class="title">회원가입</h1>
+
+				<!-- 닫기버튼 -->
+				<button type="button" class="pop_close js_pop_close js_pop_close">
+					<span class="blind">솔루션 닫기</span>
+				</button>
+				<!--// 닫기버튼 -->
+
+			</header>
+			<!--// 헤더영역 -->
+
+			<!-- 컨텐츠영역 -->
+			<div class="contents">
+				<div class="login_form">
+					<!-- 정보입력 -->
+					<div class="inpt_area">
+						<div class="inpt_wrap">
+							<input type="text" placeholder="이메일 주소를 입력해주세요">
+						</div>
+						<div class="inpt_wrap">
+							<input type="password" placeholder="비밀번호를 입력해주세요" class="js_input_pw">
+							<button type="button" class="btn_pw hide js_btn_pw"><!-- 암호보기 class="show" 추가, 암호보이지않기 class="hide" 추가 -->
+								<span class="blind">암호보기</span>
+							</button>
+						</div>
+					</div>
+					<!--// 정보입력 -->
+
+					<p class="login_pvc">SizeMine의 <a href="#">개인 데이터 및 개인 정보 수집 정책</a>에 동의합니다</p>
+
+					<div class="btn_wrap">
+						<a href="#" class="btn btn_main_01">동의하고 회원가입</a><!-- 비활성화시 class="inactv" -->
+					</div>
+
+					<p class="join_txt">이미 계정이 있습니다 <a href="login_02.html">로그인</a></p>
+				</div>
+			</div>
+			<!--// 컨텐츠영역 -->
+
+			<!-- 하단고정영역 -->
+			<div class="btm_fixed">
+				<div class="easy_login">
+					<p>간편 로그인</p>
+				</div>
+				<div class="btn_wrap">
+					<a href="login_02.html" class="btn btn_kakao">카카오로 시작하기</a>
+				</div>
+				<div class="btn_wrap">
+					<a href="login_02.html" class="btn btn_naver">네이버로 로그인</a>
+				</div>
+			</div>
+			<!--// 하단고정영역 -->
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<script type="text/javascript" src="../assets/js/common.js"></script>
+	<link rel="stylesheet" href="../assets/css/common.css">
+	<title>성별/생년월일 입력</title>
+</head>
+<body>
+	<div class="page">
+		<div class="pop_wrap fixed"><!-- 하단고정 영역 class="fixed" 추가 -->
+			<!-- 헤더영역 -->
+			<header class="head_wrap">
+				<!-- 로고 -->
+				<h1 class="logo">
+					<a href="/"><img src="../assets/image/logo.png" alt="size mine"></a>
+				</h1>
+				<!--// 로고 -->
+
+				<!-- 닫기버튼 -->
+				<button type="button" class="pop_close js_pop_close">
+					<span class="blind">솔루션 닫기</span>
+				</button>
+				<!--// 닫기버튼 -->
+
+			</header>
+			<!--// 헤더영역 -->
+
+			<!-- 컨텐츠영역 -->
+			<div class="contents">
+				<!-- 진행 단계 -->
+				<div class="pro_bar">
+					<span class="tot"></span>
+					<span class="crt" style="width:66.66%;"></span>
+				</div>
+				<!--// 진행 단계 -->
+
+				<!-- 타이틀영역 -->
+				<div class="tit_area">
+					<h2 class="tit">
+						더욱 디테일한<br>추천을 위한 질문
+					</h2>
+					<p class="desc">태어난 해와 성별을 알려주시면<br>더욱 정확한 추천을 진행할 수 있어요 </p>
+				</div>
+				<!--// 타이틀영역 -->
+
+				<!-- 정보입력 -->
+				<div class="inpt_area">
+					<div class="inpt_wrap">
+						<span class="inpt_tit">성별</span>
+						<div class="rdo_set">
+							<label for="rdo_01">
+								<input type="radio" name="rdo" id="rdo_01" checked>
+								<span>남성</span>
+							</label>
+							<label for="rdo_02">
+								<input type="radio" name="rdo" id="rdo_02">
+								<span>여성</span>
+							</label>
+						</div>
+					</div>
+					<div class="inpt_wrap">
+						<input type="text" placeholder="출생년도를 입력해주세요">
+						<span class="year">년</span>
+					</div>
+				</div>
+				<!--// 정보입력 -->
+			</div>
+			<!--// 컨텐츠영역 -->
+
+			<!-- 하단고정영역 -->
+			<div class="btm_fixed">
+				<div class="btn_wrap">
+					<a href="step_01.html" class="btn btn_sub">이전</a>
+					<a href="step_03.html" class="btn btn_main_01">다음</a><!-- 비활성화시 class="inactv" -->
+				</div>
+			</div>
+			<!--// 하단고정영역 -->
+		</div>
+	</div>
+</body>
+</html>
